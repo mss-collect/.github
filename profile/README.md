@@ -2,12 +2,12 @@
 
 ### Namespace conventions (NuGet, C#)
 
-Package|Namespace|Assembly|Solution|csproj
----|---|---|---|---
-MSS.Tools.X.Y||||
-MSS.Extensions.X.Y||||
-MSS.Api.X.Y||||
-
+Repository|Package|Namespace|Assembly|Solution|csproj
+---|---|---|---|---|---
+tools.x|MSS.Tools.X.Y||||
+extensions.x|MSS.Extensions.X.Y||||
+api.x|MSS.Api.X.Y||||
+resources.osmpbf|MSS.Resources.OsmPbf||||
 
 #### Special cases
 
