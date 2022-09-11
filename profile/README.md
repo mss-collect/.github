@@ -32,16 +32,5 @@ tools.web.primitives|
 tools.schema.org|
 tools.pbf|MSS.Tools.Pbf.*
 
-### ToDo
-- roque-draft should be moved/renamed into
-  - tools.pbf
-    - Tools.Pbf.IO
-    - Tools.Pbf.Primitives
-    - Tools.Pbf.Analysis
-- tools.vectortile should be renamed/splitted into
-  - tools.vectile (rename vector into vec because to often used by NTS and others)
-  - Roque.ML should go into his own repo
-    - tools.osm.wayclassifier
-
 ## Packages
 
