@@ -27,6 +27,7 @@ Repository|Namespace
 ---|---
 tools.vectortile|MSS.Tools.VectorTile.*
 tools.osm|MSS.Tools.Osm.Primitives
+tools.osm.wayclassifier|MSS.Tools.Osm.WayClassifier
 tools.web.primitives|
 tools.schema.org|
 tools.pbf|MSS.Tools.Pbf.*
@@ -40,6 +41,7 @@ tools.pbf|MSS.Tools.Pbf.*
 - tools.vectortile should be renamed/splitted into
   - tools.vectile (rename vector into vec because to often used by NTS and others)
   - Roque.ML should go into his own repo
+    - tools.osm.wayclassifier
 
 ## Packages
 
