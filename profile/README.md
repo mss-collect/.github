@@ -9,9 +9,17 @@
 
 [Design guidelines for assemblies](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-assemblies-and-dlls)
 
+### Rules for MSS-Collect
+
+- literal or prfix "MSS" is never used in repo names (redundant)
+- repository names for libraries (tools, api, extension) are lowercased
+- repository names for products can be in any casing
+- our preferred name parts for libraries are:
+  - tools (tools.osm, tools.web
+  - api (api.facebook, api.overpass, api.outdooractive)
+  - extensions (extensions.logging)
+
 ## Repositories
-
-
 
 ### Inventory
 
@@ -23,7 +31,6 @@ tools.web.primitives|
 tools.schema.org|
 tools.pbf|MSS.Tools.Pbf.*
 
-
 ### ToDo
 - roque-draft should be moved/renamed into
   - tools.pbf
@@ -33,7 +40,6 @@ tools.pbf|MSS.Tools.Pbf.*
 - tools.vectortile should be renamed/splitted into
   - tools.vectile (rename vector into vec because to often used by NTS and others)
   - Roque.ML should go into his own repo
-   
 
 ## Packages
 
