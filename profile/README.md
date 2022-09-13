@@ -4,8 +4,10 @@
 
 Repository|Namespace|Description
 ---|---|---
+trv.web||TRV website specific settings and tools based on TrailBlog Api TODO rename into webcontent.trv
+webcontent.scenery|| scenery website specific settings and tools based on TrailBlog Api
 roque-draft||should be renamed!
-tools.vectortile|MSS.Tools.VectorTile.*
+tools.vectiles|MSS.Tools.VectTiles.*| ex "vectortiles"
 tools.osm|MSS.Tools.Osm.Primitives
 tools.osm.wayclassifier|MSS.Tools.Osm.WayClassifier
 tools.web.primitives|
@@ -25,11 +27,12 @@ tools.pbf.benchmarks|MSS.Tools.Pbf.Benchmarks| high level benchmraks executed vi
 
 ### Rules for MSS-Collect
 
-- literal or prfix "MSS" is never used in repo names (redundant)
+- literal or prefix "MSS" is never used in repo names (redundant)
 - repository names for libraries (tools, api, extension) are lowercased
 - repository names for products can be in any casing
-- our preferred name parts for libraries are:
-  - tools (tools.osm, tools.web
-  - api (api.facebook, api.overpass, api.outdooractive)
-  - extensions (extensions.logging)
+- our preferred name parts are:
+  - tools (tools.osm, tools.web) implemented as dotnet classlibraries
+  - api (api.facebook, api.overpass, api.outdooractive) implemented as dotnet classlibraries
+  - extensions (extensions.logging)  implemented as dotnet classlibraries
+  - webcontent for web content building repositories
 
