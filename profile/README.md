@@ -2,18 +2,47 @@
 
 ## Repositories
 
+### Libraries
+
 Repository|Namespace|Description
 ---|---|---
-trv.web||TRV website specific settings and tools based on TrailBlog Api TODO rename into webcontent.trv
-webcontent.scenery|| scenery website specific settings and tools based on TrailBlog Api
-roque-draft||should be renamed!
+roque-draft||TODO rename!
+||
 tools.vectiles|MSS.Tools.VectTiles.*| ex "vectortiles"
 tools.osm|MSS.Tools.Osm.Primitives
 tools.osm.wayclassifier|MSS.Tools.Osm.WayClassifier
 tools.web.primitives|
 tools.schema.org|
 tools.pbf|MSS.Tools.Pbf.*
-tools.pbf.benchmarks|MSS.Tools.Pbf.Benchmarks| high level benchmraks executed via Github Actions
+tools.pbf.benchmarks|MSS.Tools.Pbf.Benchmarks| high level benchmarks executed via Github Actions
+tools.osm.wayclassifier||
+tools.web.pwa||
+tools.pbf||
+tools.pbf.benchmark||
+||
+api.outdooractive||
+api.teamup||
+api.facebook||
+
+### Products
+
+Repository|Namespace|Description
+---|---|---
+trailblog|TrailBlog.*|blogging and web engine
+TrailExplorer||TRV website specific settings and tools based on TrailBlog Api 
+flextiler||TODO archive!
+NetTopologySuite||
+postingbuilder|PostingBuilder.*|
+
+### Contents (Web)
+
+Repository|Namespace|Description
+---|---|---
+trv.trackanalyzer||
+trv.web||TRV website specific settings and tools based on TrailBlog Api TODO rename into webcontent.trv
+webcontent.scenery|| scenery website specific settings and tools based on TrailBlog Api
+
+
 ## Packages
 
 
@@ -35,4 +64,29 @@ tools.pbf.benchmarks|MSS.Tools.Pbf.Benchmarks| high level benchmraks executed vi
   - api (api.facebook, api.overpass, api.outdooractive) implemented as dotnet classlibraries
   - extensions (extensions.logging)  implemented as dotnet classlibraries
   - webcontent for web content building repositories
+
+The TrailBlog universe is growing and needs some rules.
+
+Content repository regarding our running activities should use the prefix "trv" like 
+
+- trv.web
+- trv.trackanalyzer
+
+What about PostingBuilder ?
+
+- uses trailblog NuGets like Markdown and client
+- should not have content/project specific code => it behaves like a library/product library
+
+
+
+### 3.10.2022 Rule conflict
+
+Analyze naming:
+- webcontent.scenery
+- trv.web
+
+
+
+
+
 
