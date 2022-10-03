@@ -31,7 +31,6 @@ Repository|Namespace|Description
 trailblog|TrailBlog.*|blogging and web engine
 trailblog.postingbuilder|TrailBlog.PostingBuilder.*|
 TrailExplorer||TRV website specific settings and tools based on TrailBlog Api 
-flextiler||TODO archive!
 NetTopologySuite||
 
 ### Contents (Web)
