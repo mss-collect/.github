@@ -16,7 +16,7 @@ tools.schema.org|
 tools.pbf|MSS.Tools.Pbf.*
 tools.pbf.benchmarks|MSS.Tools.Pbf.Benchmarks| high level benchmarks executed via Github Actions
 tools.osm.wayclassifier||
-tools.web.pwa||
+tools.web|MSS.Tools.Web.*|renamed from tools.web.pwa with v3.0.0, namespaces: html, layouts, resources, themes 
 tools.pbf||
 tools.pbf.benchmark||
 ||
