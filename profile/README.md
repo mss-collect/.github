@@ -8,3 +8,22 @@ The following websites are driven by code from this organization:
 - [Trail Explorer](https://trex.trailrunningvienna.at)
 - [Notes](https://notes.mss-collect.com)
 
+
+## Naming conventions
+
+There is no exact definition about using tools or extensions
+We see multiple (inconsistent) scenarios)
+- tools as global tools
+- tools as libraries used in project runtime code
+- tools as libraries used in project test code
+- extensions (means static methods with this as main entry point, used like Microsoft.Extensions Framework)
+
+Nuget Packages: 
+
+- MSS.Tools.TechnologyOrProduct.Content
+
+Special Case: Tools and Helpers for xUnit:
+Namepsace: Xunit (Framework Design Guidelines)
+Wording: "xUnit" Product Name
+Package: MSS.Tools.Xunit
+Repository: tools.xunit
