@@ -11,8 +11,9 @@ The following websites are driven by code from this organization:
 
 ## Naming conventions
 
-There is no exact definition about using tools or extensions
-We see multiple (inconsistent) scenarios)
+There is no exact definition about using tools or extensions.
+We see multiple (inconsistent) scenarios).
+
 - tools as global tools
 - tools as libraries used in project runtime code
 - tools as libraries used in project test code
@@ -27,3 +28,16 @@ Namepsace: Xunit (Framework Design Guidelines)
 Wording: "xUnit" Product Name
 Package: MSS.Tools.Xunit
 Repository: tools.xunit
+
+### Patterns
+
+#### MSS.Tools.Web
+- Primitives
+- Routing/EndpointRouting
+- Layout
+- Primitives
+- ApplicationInsights
+- HttpClient
+- xUnit
+  
+
