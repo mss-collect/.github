@@ -4,8 +4,8 @@ This organization is used for all my repositories that are about development and
 
 The following websites are driven by code from this organization:
 
-- [Trailrunning Vienna](https://trailrunningvienna.at) and [Events](https://events.Trailrunningvienna.at)
-- [Trail Explorer](https://trex.trailrunningvienna.at)
+- [Trailrunning Vienna](https://trailrunningvienna.at) and [Events](https://events.Trailrunningvienna.at) implemented by [TrailBlog on Github](https://github.com/mss-collect/trailblog)
+- [Trail Explorer](https://trex.trailrunningvienna.at) implemented by [TrailExplorer on Github](https://github.com/mss-collect/TrailExplorer)
 - [Notes](https://notes.mss-collect.com)
 
 
